@@ -12,7 +12,7 @@ public static class Exercicio7
         Console.Write("Digite a nota das atividades em sala: ");
         notaAtividades = double.Parse(Console.ReadLine()!);
 
-        mediaFinal = (notaProva * 4) + (notaAtividades * 6) / 2;
+        mediaFinal = ((notaProva * 4) + (notaAtividades * 6)) / 10;
 
         Console.WriteLine();
         Console.WriteLine($"A média final do aluno é: {mediaFinal}");
